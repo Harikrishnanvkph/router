@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Google",
+    "netWorth": "1.72 Trillion USD",
+    "description": "Google is a multinational technology company specializing in Internet-related services and products, including search engines, online advertising, cloud computing, and hardware.",
+    "headquarters": "Mountain View, California, USA"
+  },
+  {
+    "name": "Apple",
+    "netWorth": "2.87 Trillion USD",
+    "description": "Apple is a global technology company known for its innovative consumer electronics, software, and services, including the iPhone, Mac, and Apple Watch.",
+    "headquarters": "Cupertino, California, USA"
+  },
+  {
+    "name": "Microsoft",
+    "netWorth": "2.55 Trillion USD",
+    "description": "Microsoft is a leading software company that develops and sells computer software, consumer electronics, personal computers, and related services.",
+    "headquarters": "Redmond, Washington, USA"
+  },
+  {
+    "name": "Facebook",
+    "netWorth": "800 Billion USD",
+    "description": "Facebook, now known as Meta, is a multinational technology company focusing on social networking, augmented reality, and virtual reality.",
+    "headquarters": "Menlo Park, California, USA"
+  }
+]

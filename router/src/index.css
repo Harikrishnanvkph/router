@@ -2,4 +2,74 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Bahnschrift, serif;
+}
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navBar{
+  flex: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: max-content;
+}
+
+.logo-section, .dropdown-section{
+  flex: 1;
+  text-align: center;
+}
+
+.navigation{
+  flex: 2;
+  list-style-type : none;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  border: aquamarine 1px solid;
+  border-radius: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.tabs{
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.active{
+  color : red;
+}
+
+.outlet{
+  flex: auto;
+  overflow: auto;
+  align-content: center;
+  justify-items: center;
+}
+
+.priceandplan{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+}
+
+.cards{
+  padding: 10px;
+  box-shadow: 2px 2px 20px #e2e2e2;
+  text-align: center;
+  & p{
+    padding: 0 5px;
+  }
 }

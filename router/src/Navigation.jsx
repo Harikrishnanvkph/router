@@ -1,12 +1,23 @@
+import {NavLink, Outlet, useNavigate} from "react-router-dom";
 
 
 function Navigation() {
+
+    const navigate = useNavigate()
+
     return <>
-        <ul className="navigation">
-            <li className="tabs">Price and Plan</li>
-            <li className="tabs">About Us</li>
-            <li className="tabs">Investors Relations</li>
-        </ul>
+        <div className="navBar">
+            <div className="logo-section">Logo</div>
+            <ul className="navigation">
+                <NavLink to="priceandplan"><li className="tabs">Price And Plan</li></NavLink>
+                <NavLink to="aboutus"><li className="tabs">About Us</li></NavLink>
+                <NavLink to="investorrelation"><li className="tabs">Investors Relations</li></NavLink>
+            </ul>
+            <div className="dropdown-section">Other</div>
+        </div>
+        <div className="outlet">
+            <Outlet />
+        </div>
     </>
 }
 
