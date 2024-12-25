@@ -26,9 +26,11 @@
 }
 
 .navigation{
-  flex: 2;
+  flex: 8;
   list-style-type : none;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   text-align: center;
   padding: 5px;
   border: aquamarine 1px solid;

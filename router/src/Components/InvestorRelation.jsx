@@ -1,12 +1,10 @@
-import React from 'react';
 import {Outlet, useNavigate} from "react-router-dom";
 
 function InvestorRelation() {
     const navigate = useNavigate();
 
-
     const handleClick = (e) => {
-        navigate(`${e.target.innerHTML}`)
+        navigate(`${e.target.innerHTML}`);
     }
     return <>
         <div className="investorrelation">

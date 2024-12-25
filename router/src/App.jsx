@@ -4,6 +4,7 @@ import PriceAndPlan from "./Components/PriceAndPlan.jsx";
 import AboutUs from "./Components/AboutUs.jsx";
 import InvestorRelation from "./Components/InvestorRelation.jsx";
 import Investors from "./Components/InvestorRelation/Investors.jsx";
+import StartMulter from "./multer/StartMulter.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 <Route path="aboutus" element={<AboutUs />} />
                 <Route path="investorRelation" element={<InvestorRelation />} />
                 <Route path="investorRelation/:id" element={<Investors />} />
+                <Route path="multer" element={<StartMulter />} />
             </Route>
         )
     )
