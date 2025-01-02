@@ -1,9 +1,7 @@
-import {NavLink, Outlet, useNavigate} from "react-router-dom";
+import {NavLink, Outlet} from "react-router-dom";
 
 
 function Navigation() {
-
-    const navigate = useNavigate()
 
     return <>
         <div className="navBar">
@@ -11,8 +9,11 @@ function Navigation() {
             <ul className="navigation">
                 <NavLink to="priceandplan"><li className="tabs">Price And Plan</li></NavLink>
                 <NavLink to="aboutus"><li className="tabs">About Us</li></NavLink>
-                <NavLink to="investorrelation"><li className="tabs">Investors Relations</li></NavLink>
+                <NavLink to="redux"><li className="tabs">Redux</li></NavLink>
                 <NavLink to="multer"><li className="multer">Multer</li></NavLink>
+                <NavLink to="long_polling">
+                    <li className="long_polling">Long Polling</li>
+                </NavLink>
             </ul>
             <div className="dropdown-section">Other</div>
         </div>

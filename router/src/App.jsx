@@ -2,9 +2,9 @@ import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} fr
 import Navigation from "./Navigation.jsx";
 import PriceAndPlan from "./Components/PriceAndPlan.jsx";
 import AboutUs from "./Components/AboutUs.jsx";
-import InvestorRelation from "./Components/InvestorRelation.jsx";
-import Investors from "./Components/InvestorRelation/Investors.jsx";
+import ReduxWindow from "./Redux/ReduxWindow.jsx";
 import StartMulter from "./multer/StartMulter.jsx";
+import {LongPollingNormal} from "./Long_Polling/LongPollingNormal.jsx";
 
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
             <Route path="/" element={<Navigation />}>
                 <Route path="priceandplan" element={<PriceAndPlan/>} />
                 <Route path="aboutus" element={<AboutUs />} />
-                <Route path="investorRelation" element={<InvestorRelation />} />
-                <Route path="investorRelation/:id" element={<Investors />} />
+                <Route path="redux" element={<ReduxWindow />} />
                 <Route path="multer" element={<StartMulter />} />
+                <Route path="long_polling" element={<LongPollingNormal />} />
             </Route>
         )
     )
